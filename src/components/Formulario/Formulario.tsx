@@ -1,4 +1,4 @@
-import { Button } from "../Buttons/Button";
+import { Button } from "../Buttons/Button"
 import style from './Formulario.module.scss'
 
 export function Formulario() {
@@ -31,7 +31,9 @@ export function Formulario() {
                         required
                     />
                 </div>
-                <Button />
+                <Button 
+                    texto= "Adicionar"
+                />
             </form>
         </>
     );

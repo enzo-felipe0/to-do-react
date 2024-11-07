@@ -1,3 +1,4 @@
+import { Cronometro } from "../components/Cronometro/Cronometro"
 import { Formulario } from "../components/Formulario/Formulario"
 import { Lista } from "../components/Lista/Lista"
 import '../index.css'
@@ -9,6 +10,7 @@ function App() {
       <div className={style.AppStyle}>
         <Formulario />
         <Lista />
+        <Cronometro />
       </div>
     </>
   )

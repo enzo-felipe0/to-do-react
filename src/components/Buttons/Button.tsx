@@ -1,9 +1,15 @@
 import style from './Button.module.scss'
 
-export function Button(){
-    return(
+interface ButtonProps {
+    texto: string;  
+  }
+
+export function Button({texto}: ButtonProps) { 
+    return (
         <>
-            <button className={style.button}>Botão</button>
+            <button className={style.button}>
+                {texto}
+            </button>
         </>
     );
 }
